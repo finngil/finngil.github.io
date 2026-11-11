@@ -12,6 +12,7 @@ main-image: /assembly.png
 ---
 
 ---
+
 {% include image-gallery.html images="part1.png" height="400" %} 
 
 This part was designed as a sort of “holster” - it would be attached inside a bag in order to 
