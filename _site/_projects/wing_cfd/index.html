@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <script src="/assets/js/script.js"></script>
+
+    
+    <title>Finn Gilfillan | Portfolio</title>
+    
+
+</head>
+<body>
+    <!-- NAVBAR -->
+     <!-- _includes/nav.html -->
+<nav>
+    <div class="left">
+        <a href="/">Finn Gilfillan</a>
+    </div>
+
+    <!-- Desktop Menu -->
+    <div class="right desktop-nav">
+        <a href="/">
+            <span>Home</span>
+        </a>
+        <a href="/projects/">
+            <span>Projects</span>
+        </a>
+        <a href="https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <span>Resume</span>
+        </a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button class="menu-toggle" aria-label="Toggle menu">
+        <i class="fa fa-bars fa-2x"></i>
+    </button>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-nav">
+        <a href="/">
+            <span>Home</span>
+        </a>
+        <a href="/projects/">
+            <span>Projects</span>
+        </a>
+        <a href="https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <span>Resume</span>
+        </a>
+    </div>
+</nav>
+
+     <div class="page"><div class="post-view">
+    <div class="summary">
+        
+       
+        
+               
+        <img src="/_projects/wing_cfd/cover.png" alt="Wing Design CFD image">
+        
+        <div class="title-header">
+            <h1>Wing Design CFD</h1>
+        </div>
+        
+        <div class="project-description">
+            <h2>Project Overview</h2>
+            <p>In my final year of school, I entered a wing design competition run by Cambridge University Drone Society. After modelling my design in CAD, I optimised thelift to drag ratio with CFD by tracing air particles over the wing to identify flaws.</p>
+        </div>
+        <div class="skills-card">
+            <h2>Skills Used</h2> 
+            <div class="skills-list">
+                
+                <span class="skill">Computational Fluid Dynamics</span>    
+                
+                <span class="skill">3D CAD Modelling</span>    
+                
+                <span class="skill">Iterative Design</span>    
+                
+                <span class="skill">Technical Troubleshooting</span>    
+                
+                <span class="skill">Aerodynamic Analysis</span>    
+                
+            </div>
+        </div>
+    </div>
+      
+    <div class="content">
+        <h2 id="first-iteration">First Iteration</h2>
+<hr />
+
+<div class="image-gallery" style="--gallery-height: 240px;">
+  
+      
+      
+          
+          <img src="/_projects/wing_cfd/v1_top.png" alt="v1_top.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/_projects/wing_cfd/v1_side.png" alt="v1_side.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+<p>For the first CAD model I used an aerofoil from the online database Airfoil Tools, I extruded this profile along a path that curved upwards towards the end to form a winglet, and included a taper.</p>
+
+<div class="image-gallery" style="--gallery-height: 400px;">
+  
+      
+      
+          
+          <img src="/_projects/wing_cfd/sim1.png" alt="sim1.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+<p>When I used Simscale, a cloud based CFD software, to simulate airflow over this first design, the simulation showed detached airflow - resulting in an aerodynamically unstable wing, I speculated that this may have been due to the wing being too tapered.</p>
+<h2 id="final-version">Final Version</h2>
+<hr />
+
+<div class="image-gallery" style="--gallery-height: 240px;">
+  
+      
+      
+          
+          <img src="/_projects/wing_cfd/v3_top.png" alt="v3_top.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/_projects/wing_cfd/v3_side.png" alt="v3_side.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+<p>After a few iterations and simulation runs of the design, I came up with a slightly modified wing, with a reduced taper and fillets along the end of the wing for smooth airflow.</p>
+
+<div class="image-gallery" style="--gallery-height: 400px;">
+  
+      
+      
+          
+          <img src="/_projects/wing_cfd/sim2.png" alt="sim2.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/_projects/wing_cfd/sim3.png" alt="sim3.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+<p>As the simulation shows, when I reduced the wing taper, this resulted in smooth and attached airflow.</p>
+
+<div class="image-gallery" style="--gallery-height: 400px;">
+  
+      
+      
+          
+          <img src="/_projects/wing_cfd/winglet.png" alt="winglet.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+<p>The winglet was incorporated in order to reduce wingtip vortices and thus reduce drag, however, as shown above, it is impossible to completely eliminate these vortices as long as the wing is generating lift.</p>
+<h2 id="glider-design">Glider Design</h2>
+
+    </div>
+</div>
+
+</div>
+
+     
+</body>
+
+    <footer>
+    <div class="footer-content">
+        <div class="links">
+            <a href="/">
+                <span>Home</span>
+            </a>
+            <a href="/projects/">
+                <span>Projects</span>
+            </a>
+            <a href=https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing target="_blank" rel="noopener noreferrer">
+                <span>Resume</span>
+            </a>
+        </div>
+    </div>
+    <div class="license">
+        <span>For any question or suggestion for the portfolio template or projects, reach out <a class="help" href="mailto:admin@lowinertia.com"> Here</a> </span>
+        <p>Free-To-Engineer portfolio template © 2025 by lowinertia.com is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1">CC BY 4.0</a></p>
+    </div>
+</footer>
+
+</html>
