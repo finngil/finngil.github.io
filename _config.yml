@@ -15,27 +15,27 @@ title: Finn Gilfillan | Portfolio # This is what shows up in the tab of the brow
 name: Finn Gilfillan
 headline: 
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  I am a prospective aerospace / mechanical engineering student with strong foundations in
+  I am a prospective engineering student with strong foundations in
   mathematics, CAD software, technical drawings, and extensive experience of the engineering-design
   process. I recieved the best grades in my year at school (AAAA at Advanced Higher) and have a
   number of personal projects demonstrating my technical ability.
 
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: ./assets/images/profile-image/avatar.jpeg
+profile_image: ./assets/images/profile-image/prof1.jpg
 
 
 # Link your resume
 # You can place your resume in assets/resume/{resume.pdf or add external link such as pdf saved in google drive 
-resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing # or /assets/resume/resume.pdf
+resume-url:  /assets/resume/16112.pdf # https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing # or /assets/resume/resume.pdf
 
 
 # Set up external links - this will show up as small icons next to your name.
 
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
-  linkedin: test    # https://www.linkedin.com/in/{your url slug} 
-  github: leea12    # https://github.com/{your url slug} 
-  stackoverflow: test      # https://stackoverflow.com/users/{your url slug}
+  linkedin: # test    # https://www.linkedin.com/in/{your url slug} 
+  github: # leea12    # https://github.com/{your url slug} 
+  stackoverflow: # test      # https://stackoverflow.com/users/{your url slug}
   medium:            # https://medium.com/@{your url slug} 
   x-twitter:   # https://x.com/{your url slug} 
   threads:            # https://threads.net/@{your url slug} 
@@ -57,7 +57,7 @@ skills:
     - Simulation - CFD
     - Reverse Engineering
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
-formspree-key:   https://formspree.io/f/{8-digit key}
+formspree-key:   https://formspree.io/f/xgakajer
 
 
 
