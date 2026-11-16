@@ -20,7 +20,7 @@ Designed specifically for the thickness of my desk, features a honeycomb hole de
 ---
 {% include image-gallery.html images="stand3dp.jpg" height="400" %}
 <br>
-When my the mechanism that fixed my music stand at a certain height broke, I figured out that the threads on the bolt were worn out. After discovering that the part was a standard M4 bolt, I used my own bolt and designed a quick thumb screw adaptor.
+When the mechanism that fixed my music stand at a certain height broke, I figured out that the threads on the bolt were worn out. After discovering that the part was a standard M4 bolt, I used my own bolt and designed a quick thumb screw adaptor.
 ## Model Aircraft Stand
 ---
 {% include image-gallery.html images="model3dp.jpg" height="400" %}
