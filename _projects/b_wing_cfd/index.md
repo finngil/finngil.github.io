@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Wing Design and Simulation
-description:  In my final year of school, I entered a wing design competition run by Cambridge University Drone Society. After modelling my design in CAD, I optimised thelift to drag ratio with CFD by tracing air particles over the wing to identify flaws.
+description:  In my final year of school, I entered a wing design competition run by Cambridge University Drone Society. After modelling my design in CAD, I optimised the lift to drag ratio with CFD by tracing air particles over the wing to identify flaws.
 skills: 
   - Computational Fluid Dynamics
   - 3D CAD Modelling

@@ -39,7 +39,7 @@ with calipers, worked out tolerances, and modelled the case in CAD. After a coup
 would reach a final design, each of which the technician was extremely satisfied with, he then would
 order the required quantity, and I would 3D Print the final products.
 
-Over the coming years, I have been paid to design and produce different cases for increasingly more 
+I was paid to design and produce different cases for increasingly more 
 complex equipment. I believe that this experience is extremely relevant to the engineering sector: 
 consulting with a client, understanding their requirements, before presenting a unique solution and
 working with them to finalise it.
