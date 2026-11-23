@@ -10,11 +10,11 @@ skills:
 - Client Consultation
 - Tolerance Analysis
 - Material Selection
-main-image: /assembly.png
+main-image: /au_1.jpg
 ---
 ## The Cases
 ---
-{% include image-gallery.html images="part1.png" height="400" %}
+{% include image-gallery.html images="part1.png" height="300" %}
 <br>
 This part was designed as a sort of “holster” - it would be attached inside a bag in order to 
 secure the devices for easy access and secure storage.
@@ -24,7 +24,7 @@ side of the case was designed to slide "around" protruding ports.
 
 <br>
 ---
-{% include image-gallery.html images="part2.png" height="400" %}  
+{% include image-gallery.html images="part2.png" height="300" %}  
 <br>
 This part was a protective case that was printed with flexible material which reduced the risk of
 damage from drops, and still allowed the buttons to be operated.
@@ -38,7 +38,18 @@ Each time I was commissioned to design a case, I sketched my idea with the clien
 with calipers, worked out tolerances, and modelled the case in CAD. After a couple of prototypes, I
 would reach a final design, each of which the technician was extremely satisfied with, he then would
 order the required quantity, and I would 3D Print the final products.
+{% include image-gallery.html images="assembly.png" height="300" %}
 
+<br>
+## Outcome
+---
+Here I have inlcuded some images of my products in use on the set:
+{% include image-gallery.html images="au_1.jpg, au_2.jpg, au_3.jpg" height="400" %}
+<br>
+{% include image-gallery.html images="au_4.jpg, au_5.jpg, au_6.jpg" height="330" %}
+<br>
+The sound technician continues to use these cases, allowing him to work efficiently and protect his assets.
+<br><br>
 I was paid to design and produce different cases for increasingly more 
 complex equipment. I believe that this experience is extremely relevant to the engineering sector: 
 consulting with a client, understanding their requirements, before presenting a unique solution and
