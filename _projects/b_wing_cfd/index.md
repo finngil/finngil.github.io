@@ -13,7 +13,7 @@ main-image: /cover.png
 ---
 ## First Iteration
 ---
-{% include image-gallery.html images="v1_top.png, v1_side.png" height="240" %}
+{% include image-gallery.html images="v1_top.png, v1_side.png" height="190" %}
 <br>
 For the first CAD model I used an aerofoil from the online database Airfoil Tools, I extruded this profile along a path that curved upwards towards the end to form a winglet, and included a taper.
 {% include image-gallery.html images="sim1.png" height="400" %}
@@ -21,10 +21,10 @@ For the first CAD model I used an aerofoil from the online database Airfoil Tool
 When I used Simscale, a cloud based CFD software, to simulate airflow over this first design, the simulation showed detached airflow - resulting in an aerodynamically unstable wing, I speculated that this may have been due to the wing being too tapered.
 ## Final Version
 ---
-{% include image-gallery.html images="v3_top.png, v3_side.png" height="240" %}
+{% include image-gallery.html images="v3_top.png, v3_side.png" height="180" %}
 <br>
 After a few iterations and simulation runs of the design, I came up with a slightly modified wing, with a reduced taper and fillets along the end of the wing for smooth airflow.
-{% include image-gallery.html images="sim2.png, sim3.png" height="400" %}
+{% include image-gallery.html images="sim2.png, sim3.png" height="300" %}
 <br>
 As the simulation shows, when I reduced the wing taper, this resulted in smooth and attached airflow.
 {% include image-gallery.html images="winglet.png" height="400" %}

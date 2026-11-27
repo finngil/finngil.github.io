@@ -22,7 +22,7 @@ body {
     padding: 0 50px;
     font-family: 'Poppins', sans-serif;
     background-color: var(--background-color);
-    max-width: 1400px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -495,7 +495,7 @@ footer {
     min-height: 150px; 
     flex-shrink: 0;
     background-color: var(--light-background-color);
-    width: 100vw;
+    width: 100%;
     position: relative;
     left: 50%;
     transform: translateX(-50%);

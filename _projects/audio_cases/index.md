@@ -44,9 +44,9 @@ order the required quantity, and I would 3D Print the final products.
 ## Outcome
 ---
 Here I have inlcuded some images of my products in use on the set:
-{% include image-gallery.html images="au_1.jpg, au_2.jpg, au_3.jpg" height="400" %}
+{% include image-gallery.html images="au_1.jpg, au_2.jpg, au_3.jpg" height="338" %}
 <br>
-{% include image-gallery.html images="au_4.jpg, au_5.jpg, au_6.jpg" height="330" %}
+{% include image-gallery.html images="au_4.jpg, au_5.jpg, au_6.jpg" height="246.5" %}
 <br>
 The sound technician continues to use these cases, allowing him to work efficiently and protect his assets.
 <br><br>
